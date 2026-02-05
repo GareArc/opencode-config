@@ -1,11 +1,11 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "theme": "catppuccin-frappe",
+  "theme": "catppuccin-latte",
   "model": "anthropic/claude-sonnet-4-5",
   "autoupdate": true,
   "plugin": [
     "oh-my-opencode",
-    "opencode-antigravity-auth@1.4.3",
+    "opencode-antigravity-auth@1.4.5",
     "opencode-openai-codex-auth",
     "opencode-anthropic-auth@latest",
   ],
