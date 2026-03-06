@@ -1,11 +1,10 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "theme": "catppuccin-latte",
   "model": "anthropic/claude-sonnet-4-5",
   "autoupdate": true,
   "plugin": [
     "oh-my-opencode",
-    "opencode-antigravity-auth@1.4.5",
+    "opencode-antigravity-auth@1.6.0",
     "opencode-openai-codex-auth",
     "opencode-anthropic-auth@latest",
   ],
@@ -208,8 +207,15 @@
   "mcp": {
     "Linear": {
       "type": "remote",
-      "url": "https://mcp.linear.app/mcp",
-      "oauth": {}
+      "url": "https://mcp.linear.app/mcp"
+    },
+    "Notion": {
+      "type": "remote",
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "Atlassian": {
+      "type": "remote",
+      "url": "https://mcp.atlassian.com/v1/mcp"
     }
   }
 }
